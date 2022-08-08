@@ -131,19 +131,19 @@
 		770293B628A1610100806B9E /* CurrencyConverter */ = {
 			isa = PBXGroup;
 			children = (
-				7702940B28A163FD00806B9E /* View Model */,
-				770293FC28A162EB00806B9E /* View */,
-				770293F928A162C800806B9E /* Service */,
-				770293F228A1625F00806B9E /* Model */,
-				770293EF28A1622800806B9E /* Extension */,
-				770293E628A161B300806B9E /* API */,
 				770293E428A161AA00806B9E /* Currencies.plist */,
-				770293E228A1618C00806B9E /* Settings.plist */,
 				770293E128A1613E00806B9E /* Info.plist */,
-				770293B728A1610100806B9E /* CurrencyConverterApp.swift */,
+				770293E228A1618C00806B9E /* Settings.plist */,
 				770293B928A1610100806B9E /* ContentView.swift */,
+				770293B728A1610100806B9E /* CurrencyConverterApp.swift */,
 				770293BB28A1610200806B9E /* Assets.xcassets */,
+				770293E628A161B300806B9E /* API */,
+				770293EF28A1622800806B9E /* Extension */,
+				770293F228A1625F00806B9E /* Model */,
 				770293BD28A1610200806B9E /* Preview Content */,
+				770293F928A162C800806B9E /* Service */,
+				770293FC28A162EB00806B9E /* View */,
+				7702940B28A163FD00806B9E /* View Model */,
 			);
 			path = CurrencyConverter;
 			sourceTree = "<group>";

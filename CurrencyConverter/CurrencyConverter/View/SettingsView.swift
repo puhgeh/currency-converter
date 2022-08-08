@@ -7,12 +7,15 @@
 
 import SwiftUI
 
-// This exist only for this sample app for convenience
+// This exist only for this sample app for convenience.
+// This type of settings usually must be accessed and synced from the backend server
+// since this is not something the user sets.
 struct SettingsView: View {
     @EnvironmentObject private var viewModel: CurrencyViewModel
     
     var body: some View {
         
+        // Simple form fields - nothing fancy.
         Form {
             HStack {
                 Text("Commision Fee %: ")
