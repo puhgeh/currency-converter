@@ -206,4 +206,8 @@ class CurrencyViewModel: ObservableObject {
            print("error loading settings: \(error)")
        }
     }
+    
+    deinit {
+        cancellables.removeAll()
+    }
 }
